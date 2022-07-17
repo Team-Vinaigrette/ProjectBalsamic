@@ -54,10 +54,10 @@ pub fn internal_max_face(mut current_die: &mut Die){
     current_die.values[current_die.maxed_faces as usize] = current_die.values.len() as u32;
     current_die.maxed_faces += 1;
 
-    println!("Values for this die: ");
-    for v in &current_die.values{
-        println!("{}", v);
-    }
+    // println!("Values for this die: ");
+    // for v in &current_die.values{
+    //     println!("{}", v);
+    // }
 }
 
 pub fn internal_clear_one_face(mut current_die: &mut Die){
@@ -68,10 +68,10 @@ pub fn internal_clear_one_face(mut current_die: &mut Die){
     current_die.maxed_faces -= 1;
     current_die.values[current_die.maxed_faces as usize] = (current_die.maxed_faces as u32) + 1;
 
-    println!("Values for this die: ");
-        for v in &current_die.values{
-        println!("{}", v);
-    }
+    // println!("Values for this die: ");
+    //     for v in &current_die.values{
+    //     println!("{}", v);
+    // }
 }
 
 pub fn internal_clear_all_faces(mut current_die: &mut Die){
@@ -80,10 +80,10 @@ pub fn internal_clear_all_faces(mut current_die: &mut Die){
         current_die.values[current_die.maxed_faces as usize] = (current_die.maxed_faces as u32) + 1;
     }
 
-    println!("Values for this die: ");
-    for v in &current_die.values {
-        println!("{}", v);
-    }
+    // println!("Values for this die: ");
+    // for v in &current_die.values {
+    //     println!("{}", v);
+    // }
 }
 
 pub fn internal_debuff_die(mut current_die: &mut Die){
@@ -92,8 +92,8 @@ pub fn internal_debuff_die(mut current_die: &mut Die){
         current_die.values[a] -= 1;
     }    
     
-    println!("Values for this die: ");
-    for v in &current_die.values {
-        println!("{}", v);
-    }
+    // println!("Values for this die: ");
+    // for v in &current_die.values {
+    //     println!("{}", v);
+    // }
 }
