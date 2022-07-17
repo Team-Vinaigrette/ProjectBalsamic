@@ -5,6 +5,10 @@ edition = "2021"
 
 [dependencies]
 controller = { path = "libs/controller" }
+model = { path = "libs/model" }
+view = { path = "libs/view" }
+rand = "0.8.5"
+console = "0.15.0"
 
 [workspace]
 members = ["libs/*"]
