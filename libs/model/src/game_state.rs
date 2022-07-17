@@ -1,7 +1,7 @@
 use crate::player;
 
-pub struct GameState {
-    pub players: [player::Player; 2]
+pub struct GameState<'a> {
+    pub players: [player::Player<'a>; 2]
 }
 
 pub fn apply_results(mut current_state: &mut GameState, results_p1: Vec<u32>, results_p2: Vec<u32>){
