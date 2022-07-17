@@ -1,3 +1,5 @@
+use controller;
+
 fn main() {
-    println!("Hello, world!");
+    controller::main_loop();
 }

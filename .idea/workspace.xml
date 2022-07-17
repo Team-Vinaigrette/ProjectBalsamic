@@ -10,10 +10,14 @@
   </component>
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/view/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/app/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40e82b36-53de-4863-874e-450489d4f1a6" name="Changes" comment="adds the `console` dependency.">
+    <list default="true" id="40e82b36-53de-4863-874e-450489d4f1a6" name="Changes" comment="feat: added the workspace structure.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/controller/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/libs/controller/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/view/src/console/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/libs/view/src/console/mod.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +26,13 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -101,6 +112,8 @@
     <MESSAGE value="adds the spellbook docfile." />
     <MESSAGE value="adds the cargo configuration." />
     <MESSAGE value="adds the `console` dependency." />
-    <option name="LAST_COMMIT_MESSAGE" value="adds the `console` dependency." />
+    <MESSAGE value="feat: added the conventional-commit JetBrains plugin." />
+    <MESSAGE value="feat: added the workspace structure." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: added the workspace structure." />
   </component>
 </project>
